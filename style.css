@@ -1,0 +1,475 @@
+/* ===GLOBALE STAYLE=== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Lato", sans-serif;
+}
+.headerMainDiv {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 57px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+}
+.abc{
+  width: 60%;
+  height: 40%;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  
+}
+.abc:hover {
+  background-color: lightgray;
+  color: black !important;
+  cursor: pointer;
+}
+
+
+.one1 {
+  width: 60%;
+  height: 40%;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+}
+.one1:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.one {
+  width: 60%;
+  height: 40%;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+}
+.btn {
+  background-color: black;
+  color: gray;
+  border: none;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: black;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+
+.flex01 {
+  display: flex;
+  justify-content: space-between;
+}
+.bars {
+  display: none !important;
+}
+.drop {
+  border: none;
+  background-color: black;
+  color: white;
+}
+.mqm {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 80%;
+}
+.search-icon {
+  padding: 20px;
+  cursor: pointer;
+}
+.search-icon:hover {
+  background-color: orangered;
+}
+/* ======band styles===== */
+.image {
+  /* background-image: url(img/la.jpg); */
+  width: 100%;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.header-image-text {
+  margin-bottom: 30px;
+  margin-top: -80px;
+}
+/* =========
+.band
+========= */
+
+.main1 {
+  display: flex;
+  justify-content: center;
+}
+.main2 {
+  display: flex;
+  justify-content: center;
+}
+.per {
+  width: 60%;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.5;
+}
+.band {
+  display: flex;
+  justify-content: space-around;
+  max-width: 650px;
+  margin: 10px auto;
+}
+.ppp {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center {
+  margin-bottom: 20px;
+}
+.the {
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+.i {
+  text-align: center;
+  opacity: 0.5;
+}
+.siz {
+  resize: contain;
+  height: 170px;
+}
+/* ===========
+TOUR DATES
+=========== */
+.maindiv {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 3px;
+}
+
+.tourhad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tourdate {
+  letter-spacing: 4px;
+}
+.opi {
+  color: lightgray;
+}
+.li {
+  color: black;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  color: gray;
+}
+.sep {
+  background-color: white;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+.s1 {
+  background-color: red;
+  color: #fff;
+  margin-left: 10px;
+  padding: 5px;
+}
+.hoho {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+.s3 {
+  color: white;
+  background-color: black;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/* ============
+===date image=====
+=============== */
+
+.mainimg {
+  max-width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+.new {
+  width: 100%;
+  height: 140px;
+}
+.new:hover {
+  opacity: 0.5;
+}
+.newyo {
+  width: 100%;
+  color: black;
+  background-color: white;
+  padding-bottom: 10px;
+}
+.md {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.pad {
+  padding-left: 10px;
+}
+.pa {
+  padding-left: 10px;
+  color: gray;
+}
+.buy {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
+.buy:hover {
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+}
+/* =============
+===CONTACT===
+/*  */
+
+.d1 {
+  /* position:relative; */
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 100px auto;
+}
+
+.mh2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  letter-spacing: 10px;
+}
+.p2 {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding: 10px;
+}
+.pp{
+  padding: 5px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.inlineInput {
+  width: 100%;
+  display: flex;
+  padding: 0%;
+}
+.inp {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.inpmessage {
+  width: 100%;
+  
+  padding: 8px;
+  border: 1px solid lightgray;
+}
+.inptex {
+  width: 100%;
+  
+  padding: 8px;
+  border: 1px solid lightgray;
+}
+.place{
+  padding: 5px;
+}
+.place2{
+  padding: 5px;
+}
+.msg{
+  padding: 5px;
+}
+.inpemail {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid lightgray;
+}
+.send {
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  
+  margin-top: 5px;
+}
+.send:hover {
+  background-color: lightgray;
+  color: black;
+}
+.map {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mapimg {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  color: gray;
+}
+
+.bars {
+  display: none;
+}
+.footer {
+  color: gray;
+}
+@media only screen and (max-width: 620px) {
+  .flex01 {
+    /* width: 50%; */
+    height: 50%;
+    font-size: 10px;
+    /* display: none; */
+    align-items: center;
+    justify-content: center;
+  }
+  .bars {
+    display: flex !important;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 19px;
+    display: block;
+  }
+  .searchIc {
+    display: none !important;
+  }
+
+  .search-icon:hover {
+    display: none;
+  }
+
+  .bars:hover {
+    background-color: lightgray;
+    color: black;
+  }
+
+  .header-image-text {
+    display: none;
+  }
+  .one {
+    display: none;
+  }
+
+  .per {
+    width: 100%;
+  }
+  .one1 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .band{
+    flex-direction: column;
+  }
+  .md {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .maindiv{
+    padding: 20px;
+ 
+  }
+  .sep{
+    width: 100%;
+  }
+  .new{
+    height: 50%;
+  }
+  .d1{
+   flex-direction: column;
+   padding: 20px;
+  }
+  .re{
+    padding: 10px;
+  }
+  .inlineInput{
+    flex-direction: column;
+  }
+}
+
